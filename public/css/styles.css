@@ -1,0 +1,175 @@
+body {
+  position: relative;
+}
+
+.red {
+  color: #cd5c5c;
+}
+
+.heading,
+.under-heading {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+
+/* Navbar ---------- */
+.navbar {
+  /* Give navbar a slight transparency by using rgba */
+  background-color: #57a588;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Change color of nav bar menu items (anchor tags) */
+.navbar .nav .nav-item .nav-link {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+  color: #fff;
+  border-bottom: 1px solid #cd5c5c;
+}
+
+/* Change color of menu toggler button (hamburger) */
+.navbar-toggler {
+  color: #cd5c5c;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+/* Begin Cover */
+
+#cover {
+  background-color: #57a588;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+#cover h2 {
+  padding-bottom: 35px;
+}
+
+#cover h5 {
+  line-height: 35px;
+}
+
+/* Everything less than 768px */
+@media(max-width: 768px) {
+  #cover {
+    padding-bottom: 0px;
+  }
+  #mainLogo {
+    width: 535px;
+    height: 650px;
+    padding-top: 80px;
+  }
+}
+
+/* Begin History */
+
+#history {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #686868;
+}
+
+#history h2 {
+  padding-bottom: 50px;
+}
+
+#history h5 {
+  line-height: 30px;
+}
+
+/* Begin Bath */
+
+#bath {
+  background-color: #57a588;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+#bath i {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+#bath i {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+#bath i:hover {
+  cursor: pointer;
+  color: #cd5c5c;
+  transition: 0.3s;
+}
+
+.center p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.description {
+  font-size: 0.8em !important;
+  text-align: left;
+}
+
+.red-hr {
+  border-top: 1px solid #cd5c5c;
+  width: 150px;
+  background-color: #cd5c5c;
+}
+
+.description {
+  font-size: 1.0em !important;
+}
+
+/* Footer ----------- */
+#footer {
+
+}
+
+#footer {
+  padding: 2rem 0;
+  background-color: #484848;
+  color: #fff;
+  overflow: hidden;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer .fa {
+  color: #cd5c5c;
+  padding: 0 5px;
+}
+
+#footer .fa:hover {
+  color: #fff;
+  padding: 0 5px;
+}
+
+#footer img {
+  margin-bottom: 20px;
+}
+
+#contact-info li {
+  padding: 5px;
+}
+
+#designName {
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 10px;
+  font-size: 1.3em;
+}

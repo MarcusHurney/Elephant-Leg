@@ -11,20 +11,214 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- CSS -->
     <link href="css/styles.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css"  />
 
   </head>
   <body>
+    <!-- Begin Navbar -->
+    <nav class="navbar navbar-fixed-top">
 
-    <div class="row">
-      <div class="container">
-        <div class="col-md-6 offset-md-3">
-          <h2>Bootstrap 4 and Node.js Starter Template</h2>
-          <h6>Includes Font Awesome Icons</h6>
+      <!-- Toggle Button -->
+      <button
+        class="navbar-toggler hidden-sm-up"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navigation"
+      > &#9776;
+      </button>
+
+      <!-- Logo -->
+      <!-- .pull-xs-right will pull logo to right hand side of screen
+           when the screen size is xs, .pull-sm-left shifts it to the left
+           when screen is sm and larger -->
+      <a class="navbar-brand pull-xs-right pull-sm-left red" href="#">
+        大象腿
+      </a>
+
+      <div  class="collapse navbar-toggleable-xs" id="navigation">
+        <ul class="nav navbar-nav pull-sm-right">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#history">HISTORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bath">BATH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Begin Cover -->
+    <section id="cover">
+      <div class="row">
+        <div class="container">
+          <div id="coverDescription" class="col-lg-6 col-md-6 col-sm-6">
+            <h2>Elephant Leg Brand Muay Thai Fighter Bath</h2>
+            <h5>
+              Experience a 200 year legacy of relief and relaxation.
+              Elephant Leg Brand Muay Thai Bath contains a centuries old recipe
+              in combination with the latest in sports science to deliver
+              athletes an experience unlike any other.
+            </h5>
+          </div>
+          <div id="mainLogo" class="col-lg-6 col-md-6 col-sm-6">
+            <img src="img/elephant-logo.png" class="img-fluid"/>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <!-- End Cover -->
+
+    <!-- Begin History -->
+    <section id="history">
+      <div class="row">
+        <div class="container">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <h2 class="red">The History of Elephant Leg Brand</h2>
+            <h5>
+              Around the mid 16th century, the original Muay Thai boxers
+              began bathing in a river near a salt mine. The fighters noticed
+              a reduction in muscle soreness and a faster recovery time between
+              days of training and fights.
+            </h5>
+            <br />
+            <h5>
+              They soon attributed these benefits to
+              runoff water from the salt mine into the river. Soon after, the fighters
+              collected these salts and began using them as part of their recovery
+              regimens.
+            </h5>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <img src="img/thai-fighter.jpg" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End History -->
+
+    <!-- Begin Bath -->
+    <section id="bath">
+      <div class="section-features">
+        <div class="container">
+
+          <h2 class="heading">The Bath</h2>
+          <p class="lead under-heading red">
+            A Time Tested Process
+          </p>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 center js-wp-1">
+              <i class="fa fa-bath fa-5x"></i>
+              <hr class="red-hr" />
+              <p>Relax</p>
+              <p class="description">
+                Hot water in combination with Elephant Leg Brand Muay Thai Bath
+                allows sore muscles to relax and lengthen. In this state, blood
+                more easily flows into the damaged muscles bringing vitamins and
+                nutrients essential for recovery.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-4 center js-wp-2">
+              <i class="fa fa-line-chart fa-5x"></i>
+              <hr class="red-hr" />
+              <p>Recover</p>
+              <p class="description">
+                Recovery is half the battle. After any training or battle you
+                must recover to grow stronger. A more efficient recovery allows
+                you to train harder and more consistently. Reach your peak level of
+                performance sooner and with less pain.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-4 center js-wp-3">
+              <i class="fa fa-repeat fa-5x" aria-hidden="true"></i>
+              <hr class="red-hr" />
+              <p>Repeat</p>
+              <p class="description">
+                Elephant Leg Brand Muay Thai Bath is a staple in any athelete's
+                training regimen, not just fighters. Repeat the process of instense
+                training followed by relaxation and reovery with our centuries old
+                method.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Bath -->
+
+    <!-- Begin Footer -->
+    <section id="footer">
+      <div class="container wow slideInUp" data-wow-delay="0.5s" data-wow-duration="1.5s">
+        <div class="row">
+          <div class="col-md-8 col-sm-6">
+            <p>
+              Let's continue the tradition together!
+            </p>
+            <!-- .list-inline gives the list a horizontal stack -->
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div><!-- .col-md-8 .col-sm-6 -->
+
+          <div id="contact-info"class="col-md-4 col-sm-6">
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                  <strong><i class="fa fa-map-marker" aria-hidden="true"></i>
+                  Address:</strong> Location, Street, Code
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong><i class="fa fa-envelope" aria-hidden="true"></i>
+                  Email:</strong> <a href="#">info@youremail.com</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong><i class="fa fa-envelope" aria-hidden="true"></i>
+                  Phone:</strong> <a href="#">770-440-4283</a>
+                </p>
+              </li>
+            </ul>
+          </div><!-- .col-md-4 .col-sm-6 -->
+        </div><!-- .row -->
+
+        <div class="row">
+          <div class="col-md-12">
+            <p>&copy; 2016 Designed by <span id="designName" class="red">Marcus Hurney</span></p>
+          </div>
+        </div><!-- .row -->
+      </div><!-- .container -->
+    </section>
+    <!-- End Footer -->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.1.1.min.js"></script>
