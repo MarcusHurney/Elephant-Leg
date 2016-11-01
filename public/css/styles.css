@@ -1,5 +1,5 @@
 body {
-  position: relative;
+  position: relative !important;
 }
 
 .red {
@@ -36,9 +36,11 @@ body {
   color: #8B0000;
 }
 
-.navbar-brand:hover {
-  color: #fff;
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
 }
+
 
 /* Begin Cover */
 
